@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="cvng-section"><div class="cvng-wrap cvng-reading"><?php while(have_posts()): the_post(); ?><header class="cvng-page-head"><div class="cvng-eyebrow">Regards SI</div><h1 class="cvng-page-title"><?php the_title(); ?></h1></header><article class="cvng-prose"><?php the_content(); ?></article><?php endwhile; ?></div></main><?php get_footer(); ?>
