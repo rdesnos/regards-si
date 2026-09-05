@@ -1,1 +1,1 @@
-<footer class="cvng-footer"><div class="cvng-wrap">Regards SI — Rudy Desnos</div></footer><?php wp_footer(); ?></body></html>
+<footer class="cvng-footer"><div class="cvng-wrap cvng-footer-grid"><div><strong class="cvng-footer-brand">Regards SI</strong><div>Rudy Desnos — Systèmes d’information, Finance, Data & IA</div></div><div class="cvng-footer-doctrine">Business First · Risk Based · IT as an Enabler</div></div></footer><?php wp_footer(); ?></body></html>
