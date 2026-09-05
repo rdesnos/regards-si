@@ -1,0 +1,1 @@
+<footer class="rsi-manifesto"><div class="rsi-wrap">Regards SI — Rudy Desnos</div></footer><?php wp_footer(); ?></body></html>
