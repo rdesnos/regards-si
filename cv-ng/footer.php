@@ -1,0 +1,1 @@
+<footer class="cvng-footer"><div class="cvng-wrap">Regards SI — Rudy Desnos</div></footer><?php wp_footer(); ?></body></html>
