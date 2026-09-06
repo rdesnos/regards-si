@@ -1,56 +1,27 @@
 <?php get_header(); ?>
 <main>
-  <section class="cvng-hero">
-    <div class="cvng-wrap cvng-hero-grid">
-      <div>
-        <div class="cvng-kicker">Stratégie &nbsp; | &nbsp; Transformation &nbsp; | &nbsp; Performance</div>
-        <h1 class="cvng-title">Regards<br>SI</h1>
-        <div class="cvng-lead">Le SI au service de l’entreprise</div>
-        <div class="cvng-rule"></div>
-        <div class="cvng-doctrine"><span>Business First</span><span>Risk Based</span><span>IT as an Enabler</span></div>
-      </div>
-      <div class="cvng-hero-visual">
-        <?php if (has_custom_logo()) { the_custom_logo(); } else { ?><div class="cvng-hero-placeholder">Regards SI</div><?php } ?>
-      </div>
+<section class="cvng-hero cvng-hero-home" id="accueil">
+  <div class="cvng-wrap cvng-hero-grid">
+    <div class="cvng-hero-copy">
+      <div class="cvng-kicker">STRATÉGIE &nbsp; | &nbsp; TRANSFORMATION &nbsp; | &nbsp; PERFORMANCE</div>
+      <h1 class="cvng-title cvng-dsi-title">DSI</h1>
+      <div class="cvng-lead cvng-cv-lead">Le SI au service<br>de l’entreprise</div>
+      <div class="cvng-rule"></div>
+      <div class="cvng-doctrine"><span>BUSINESS FIRST</span><span>RISK BASED</span><span>IT AS AN ENABLER</span></div>
+      <p class="cvng-cv-tagline">Une technologie utile.<br>Des résultats durables.</p>
     </div>
-  </section>
-
-  <section class="cvng-band">
-    <div class="cvng-wrap cvng-band-grid">
-      <div class="cvng-band-item"><strong>Le SI est un outil.</strong><br>Pas une finalité.</div>
-      <div class="cvng-band-item"><strong>La performance d’abord.</strong><br>La technologie vient ensuite.</div>
-      <div class="cvng-band-item"><strong>Le risque se pilote.</strong><br>Il ne se nie pas.</div>
+    <div class="cvng-hero-person">
+      <div class="cvng-portrait-shell"><img class="cvng-official-portrait" src="https://regards-si.fr/wp-content/uploads/2026/09/Rudy-Desnos-portrait-Regards-SI.webp" alt="Portrait de Rudy Desnos"></div>
     </div>
-  </section>
-
-  <section class="cvng-section">
-    <div class="cvng-wrap">
-      <div class="cvng-eyebrow">Trois territoires</div>
-      <div class="cvng-grid3">
-        <article class="cvng-card"><h2>Systèmes d’information</h2><p>Gouvernance, transformation, architecture, ERP et exécution.</p></article>
-        <article class="cvng-card"><h2>Finance & DAF</h2><p>Processus, pilotage et performance de l’entreprise.</p></article>
-        <article class="cvng-card"><h2>Data & Intelligence ajoutée</h2><p>La donnée et l’IA lorsqu’elles permettent réellement de décider et d’agir.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="cvng-section cvng-section-pale">
-    <div class="cvng-wrap">
-      <div class="cvng-section-head">
-        <div><div class="cvng-eyebrow">Dernières publications</div><h2 class="cvng-section-title">Des convictions, puis des preuves.</h2></div>
-        <a class="cvng-text-link" href="<?php echo esc_url(get_permalink(get_option('page_for_posts')) ?: home_url('/')); ?>">Tous les articles</a>
-      </div>
-      <div class="cvng-post-grid">
-        <?php $cvng_latest = new WP_Query(['post_type'=>'post','posts_per_page'=>3,'post_status'=>'publish']); ?>
-        <?php if ($cvng_latest->have_posts()) : while ($cvng_latest->have_posts()) : $cvng_latest->the_post(); get_template_part('template-parts/card','post'); endwhile; wp_reset_postdata(); else: ?>
-          <article class="cvng-post-card cvng-post-card-empty"><div class="cvng-post-meta">Regards SI</div><h3>Les prochains articles apparaîtront ici.</h3><p>Une ligne éditoriale centrée sur la performance, le risque et la valeur produite par les systèmes d’information.</p></article>
-        <?php endif; ?>
-      </div>
-    </div>
-  </section>
-
-  <section class="cvng-section">
-    <div class="cvng-wrap"><div class="cvng-quote">La technique n’est jamais le sujet. Ce que l’entreprise en fait, si.</div></div>
-  </section>
+  </div>
+  <div class="cvng-cv-proof"><div class="cvng-wrap cvng-cv-proof-grid"><div><strong>+25 ans</strong><span>de systèmes<br>d’information</span></div><div><strong>&gt; 1 Md€</strong><span>de chiffre d’affaires<br>accompagné</span></div><div><strong>16 000</strong><span>collaborateurs<br>~ 20 pays</span></div></div><div class="cvng-wrap cvng-cv-quote">“ <em>La performance du SI n’est pas une finalité.<br>La performance de l’entreprise l’est.</em></div></div>
+</section>
+<section class="cvng-cv-image-band"><img src="https://regards-si.fr/wp-content/uploads/2026/09/Engrenages-Regards-SI.jpg" alt="Engrenages mécaniques illustrant les systèmes d'information"><div class="cvng-cv-image-overlay"><strong>BUSINESS FIRST</strong><span>RISK BASED</span><b>IT AS AN ENABLER</b></div></section>
+<section class="cvng-band cvng-band-territories"><div class="cvng-wrap cvng-band-grid"><a class="cvng-band-item" href="#si"><span class="cvng-band-number">01</span><strong>Systèmes d’information</strong><small>Gouvernance, ERP, architecture, transformation.</small></a><a class="cvng-band-item" href="#finance"><span class="cvng-band-number">02</span><strong>Finance & DAF</strong><small>Processus, pilotage, contrôle et performance.</small></a><a class="cvng-band-item" href="#data"><span class="cvng-band-number">03</span><strong>Data & Intelligence ajoutée</strong><small>Donnée, IA, décision et valeur métier.</small></a></div></section>
+<section class="cvng-section" id="a-laffiche"><div class="cvng-wrap"><div class="cvng-section-head"><div><div class="cvng-eyebrow">À l’affiche</div><h2 class="cvng-section-title">Convictions de DSI</h2></div><span class="cvng-section-index">ÉDITORIAL</span></div><article class="cvng-feature-story"><div class="cvng-feature-visual"><div class="cvng-feature-mark">SI</div></div><div class="cvng-feature-copy"><div class="cvng-tag">Doctrine</div><h3>La DSI n’a pas à être alignée avec le Business. Elle doit être au service du Business.</h3><p>La performance du SI est subordonnée à celle de l’entreprise. La technologie est un moyen ; l’usage, la décision et l’exécution sont la finalité.</p><a class="cvng-text-link" href="#analyses">Lire les analyses →</a></div></article></div></section>
+<section class="cvng-section cvng-section-pale" id="analyses"><div class="cvng-wrap"><div class="cvng-section-head"><div><div class="cvng-eyebrow">Entre les lignes</div><h2 class="cvng-section-title">Analyser. Convaincre. Décider.</h2></div><span class="cvng-section-index">DOSSIERS</span></div><div class="cvng-grid3"><article class="cvng-card" id="si"><div class="cvng-card-kicker">Systèmes d’information</div><h3>Le SI est un outil. Pas une finalité.</h3><p>Gouvernance, ERP, architecture, transformation et exécution.</p></article><article class="cvng-card" id="finance"><div class="cvng-card-kicker">Risque & performance</div><h3>Le risque zéro est une mauvaise cible.</h3><p>Arbitrer le risque global de l’entreprise plutôt que protéger localement la DSI.</p></article><article class="cvng-card" id="data"><div class="cvng-card-kicker">Data & IA</div><h3>La valeur vient des usages.</h3><p>La donnée et l’IA n’ont d’intérêt que lorsqu’elles améliorent une décision ou une action.</p></article></div></div></section>
+<section class="cvng-section cvng-observatory" id="observatoire"><div class="cvng-wrap cvng-observatory-grid"><div><div class="cvng-eyebrow cvng-eyebrow-light">L’Observatoire SI</div><h2 class="cvng-section-title cvng-title-light">Mesurer ce qui compte vraiment.</h2><p class="cvng-observatory-intro">Données, indicateurs et benchmarks au service de la décision.</p></div><div class="cvng-metrics"><div><strong>01</strong><span>Performance SI</span></div><div><strong>02</strong><span>Risque & résilience</span></div><div><strong>03</strong><span>Transformation & ERP</span></div><div><strong>04</strong><span>Data & IA</span></div></div></div></section>
+<section class="cvng-section cvng-rudy" id="rudy"><div class="cvng-wrap cvng-rudy-grid"><div class="cvng-quote-block"><span class="cvng-quote-mark">“</span><blockquote>Une DSI ne se juge pas à la sophistication de son SI, mais à ce que ce SI permet à l’entreprise d’accomplir.</blockquote><div class="cvng-signature">Rudy Desnos</div></div><div class="cvng-rudy-copy"><div class="cvng-eyebrow">Le parcours</div><h2 class="cvng-section-title">De la technique au pilotage.</h2><p>Plus de vingt-cinq ans de systèmes d’information, au croisement de la finance, des ERP, de la data et de la transformation d’entreprise.</p></div></div></section>
+<section class="cvng-section cvng-ecosystem" id="travailler-ensemble"><div class="cvng-wrap"><div class="cvng-section-head"><div><div class="cvng-eyebrow">Un même fil directeur</div><h2 class="cvng-section-title">Penser. Observer. Construire. Accompagner.</h2></div><span class="cvng-section-index">ÉCOSYSTÈME</span></div><p class="cvng-ecosystem-intro">Regards SI relie une expérience de DSI, une doctrine de transformation et des réalisations concrètes. Les analyses nourrissent l'Observatoire ; les données éprouvent les convictions ; l'expérience transforme ces convictions en décisions et en action.</p><div class="cvng-ecosystem-flow"><div><span>01</span><strong>Penser</strong><small>Doctrine, convictions, analyses</small></div><div><span>02</span><strong>Observer</strong><small>Données, indicateurs, benchmarks</small></div><div><span>03</span><strong>Construire</strong><small>ERP, Finance, Data, IA, transformation</small></div><div><span>04</span><strong>Accompagner</strong><small>Direction SI, conseil et missions</small></div></div><div class="cvng-work-together"><div><div class="cvng-eyebrow">Travailler ensemble</div><h3>De la conviction à l'exécution.</h3><p>Direction des systèmes d'information, transformation, SI Finance, ERP, Data et IA : des interventions construites autour d'un même principe — mettre le SI au service de la performance durable de l'entreprise.</p></div><a class="cvng-work-cta" href="mailto:rudy.desnos@gmail.com">Échanger avec Rudy Desnos →</a></div></div></section>
 </main>
 <?php get_footer(); ?>
