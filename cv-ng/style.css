@@ -1,8 +1,12 @@
 /*
 Theme Name: CV NG
-Theme URI: https://github.com/rdesnos/regards-si
-Author: Rudy Desnos
-Description: Thème WordPress éditorial moderne dérivé de la charte CV New Gen : blanc, bleu nuit, accents dorés, grandes respirations et hiérarchie forte.
-Version: 0.1.0
 Text Domain: cv-ng
+Description: Thème éditorial Regards SI, traduction web directe du CV New Gen : Business First, Risk Based, IT as an Enabler.
+Version: 1.0.1
+Requires at least: 6.0
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+WPVibe: yes
 */
+/* Current WPVibe stylesheet baseline is version-controlled here. Editorial redesign follows from this checkpoint. */
+@import url("https://regards-si.fr/wp-content/themes/cv-ng-wpvibe-draft/style.css");
