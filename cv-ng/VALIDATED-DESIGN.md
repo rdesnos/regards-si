@@ -62,3 +62,32 @@ Principe transversal : **savoir regarder autrement** / le pas de côté.
 ### Règle de design
 
 Ne pas réinventer la charte à chaque évolution. La V3 reprend la grammaire graphique V2 et fait évoluer la hiérarchie du contenu.
+
+
+---
+
+## Jalon V4 — 27 septembre 2026
+
+### Hero définitivement validé et figé
+
+Le hero de référence est désormais la version **Paris / Tour Eiffel / portrait intégré**.
+
+Règles figées :
+- image de fond unique intégrant le bureau, la skyline de Paris, la Tour Eiffel et le portrait de Rudy Desnos ;
+- aucun assemblage séparé portrait + fond dans le hero desktop ;
+- accroche : « La technique n’est jamais le sujet. Ce que l’entreprise en fait, si. » ;
+- kicker : « RUDY DESNOS · DIRIGER LE SI AUTREMENT » ;
+- CTA : « DÉCOUVRIR MA VISION » ;
+- doctrine visible : **Business first / Risk based / Technology as an enabler** ;
+- bandeau suivant : **Systèmes d’information / Finance & DAF / Data & IA** ;
+- palette bleu nuit / blanc / or conservée ;
+- cette version constitue le **point de restauration officiel** du hero.
+
+Asset de référence :
+`cv-ng/assets/regards-si-hero-final-paris.webp`
+
+Implémentation de référence :
+- `cv-ng/front-page.php`
+- `cv-ng/hero-v4.css`
+
+**Le hero ne doit plus être modifié sans décision explicite de réouverture du design.**
