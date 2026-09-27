@@ -22,3 +22,47 @@ WPVibe: yes
 .rsi-hero-portrait{width:100%;height:270px;overflow:hidden;border-bottom:4px solid var(--cvng-gold);margin-bottom:28px;background:#eef6fb}.rsi-hero-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 22%}.rsi-editorial-aside{align-self:end}@media(max-width:820px){.rsi-hero-portrait{height:360px;max-width:430px}.rsi-hero-portrait img{object-position:center 20%}}
 /* V2.0 — Regards SI, média éditorial */
 .rsi-editorial-hero{background:linear-gradient(105deg,#edf6fb 0%,#f8fbfd 58%,#fff 100%);border-bottom:1px solid var(--cvng-line);padding:90px 0 72px}.rsi-editorial-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,.65fr);gap:90px;align-items:end}.rsi-editorial-copy h1{font-family:var(--cvng-serif);font-size:clamp(5rem,9vw,8.5rem);line-height:.8;letter-spacing:-.055em;color:var(--cvng-navy);margin:54px 0 44px}.rsi-editorial-copy h1 b{color:var(--cvng-gold)}.rsi-manifesto{font-family:var(--cvng-serif);font-size:clamp(2rem,3.6vw,3.65rem);line-height:1.02;color:var(--cvng-navy);margin:0 0 28px;max-width:820px}.rsi-intro{max-width:740px;font-family:var(--cvng-serif);font-size:1.25rem;line-height:1.6;color:#526d86}.rsi-hero-links{display:flex;gap:30px;margin-top:38px}.rsi-hero-links a{color:var(--cvng-navy);font-weight:800;text-decoration:none;border-bottom:2px solid var(--cvng-gold);padding-bottom:5px}.rsi-editorial-aside{border-top:5px solid var(--cvng-gold);padding:30px 0 0}.rsi-aside-label{font-size:.67rem;letter-spacing:.2em;font-weight:900;color:var(--cvng-blue)}.rsi-editorial-aside p{font-family:var(--cvng-serif);font-size:1.35rem;line-height:1.55;color:var(--cvng-navy);margin:24px 0 34px}.rsi-doctrine{border-top:1px solid var(--cvng-line);padding-top:22px;font-size:.78rem;font-weight:900;letter-spacing:.08em}.rsi-doctrine span{display:block;margin:5px 0}.rsi-doctrine span:nth-child(2){color:#47749e}.rsi-doctrine span:last-child{color:#b67820}.rsi-topics{background:#073557;color:#fff}.rsi-topics-grid{display:grid;grid-template-columns:repeat(3,1fr)}.rsi-topics-grid>div{padding:27px 32px;border-right:1px solid rgba(255,255,255,.22)}.rsi-topics-grid>div:last-child{border:0}.rsi-topics span{display:block;color:var(--cvng-gold);font-size:.65rem;font-weight:900;letter-spacing:.18em}.rsi-topics strong{display:block;font-family:var(--cvng-serif);font-size:1.45rem;margin:7px 0 4px}.rsi-topics small{color:#cbdce8}.rsi-lead-story{display:grid;grid-template-columns:150px 1fr;gap:52px;padding:48px 0;border-top:1px solid var(--cvng-line);border-bottom:1px solid var(--cvng-line)}.rsi-story-index{font-family:var(--cvng-serif);font-size:7rem;line-height:.8;color:#d9e7f1}.rsi-lead-story h3{font-family:var(--cvng-serif);font-size:clamp(2.4rem,4vw,4.1rem);line-height:1.02;color:var(--cvng-navy);max-width:900px;margin:18px 0 24px}.rsi-lead-story p{font-family:var(--cvng-serif);font-size:1.2rem;max-width:760px}.rsi-practice-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--cvng-line);border-bottom:1px solid var(--cvng-line)}.rsi-practice-grid article{padding:36px 34px;border-right:1px solid var(--cvng-line)}.rsi-practice-grid article:last-child{border:0}.rsi-practice-grid strong{font-family:var(--cvng-serif);font-size:1.55rem;color:var(--cvng-navy)}.rsi-author-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}.rsi-author-intro{font-family:var(--cvng-serif);font-size:1.3rem;line-height:1.55}.rsi-author-grid blockquote{font-family:var(--cvng-serif);font-size:2rem;line-height:1.2;color:var(--cvng-navy);border-left:5px solid var(--cvng-gold);margin:0;padding:10px 0 10px 34px}.rsi-closing{background:#052d4d;color:#fff;padding:38px 0}.rsi-closing span{font-size:.65rem;letter-spacing:.2em;color:var(--cvng-gold);font-weight:900}.rsi-closing p{font-family:var(--cvng-serif);font-size:1.8rem;margin:6px 0 0}@media(max-width:820px){.rsi-editorial-hero{padding:54px 0}.rsi-editorial-grid,.rsi-author-grid{grid-template-columns:1fr;gap:50px}.rsi-editorial-copy h1{font-size:5.5rem;margin:38px 0 32px}.rsi-topics-grid,.rsi-practice-grid{grid-template-columns:1fr}.rsi-topics-grid>div,.rsi-practice-grid article{border-right:0;border-bottom:1px solid rgba(255,255,255,.18)}.rsi-lead-story{grid-template-columns:1fr;gap:20px}.rsi-story-index{font-size:4rem}.rsi-hero-links{flex-direction:column;align-items:flex-start}}
+
+
+/* Home V4 — suite du hero fige, 27-09-2026 */
+.rsi-doctrine-section{background:#f7f5ef;padding:42px 0;border-bottom:1px solid #dde6ed}
+.rsi-doctrine-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.rsi-doctrine-grid article{padding:12px 38px 18px;border-right:1px solid #d8e1e8}
+.rsi-doctrine-grid article:first-child{padding-left:0}.rsi-doctrine-grid article:last-child{border-right:0;padding-right:0}
+.rsi-doctrine-no{display:block;color:var(--cvng-gold);font-size:.7rem;font-weight:900;letter-spacing:.18em;margin-bottom:14px}
+.rsi-doctrine-grid h2{font-family:var(--cvng-serif);font-size:1.55rem;line-height:1.05;color:var(--cvng-navy);margin:0 0 8px}
+.rsi-doctrine-grid strong{display:block;font-family:var(--cvng-serif);font-size:1.05rem;color:var(--cvng-navy);margin-bottom:8px}
+.rsi-doctrine-grid p{margin:0;color:#526d86;line-height:1.5}
+
+.rsi-vision-section{background:linear-gradient(115deg,#062f51,#0b416c);color:#fff;padding:92px 0 86px;position:relative;overflow:hidden}
+.rsi-vision-section:after{content:"";position:absolute;right:-8vw;top:-16vw;width:40vw;height:40vw;border:1px solid rgba(231,167,21,.16);border-radius:50%;box-shadow:0 0 0 70px rgba(255,255,255,.018),0 0 0 140px rgba(255,255,255,.012)}
+.rsi-vision-section .cvng-wrap{position:relative;z-index:1}
+.rsi-vision-eyebrow{color:var(--cvng-gold)!important}
+.rsi-vision-head{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:end;margin:12px 0 52px}
+.rsi-vision-head h2{font-family:var(--cvng-serif);font-size:clamp(3rem,5vw,5rem);line-height:.98;color:#fff;margin:0}
+.rsi-vision-head h2 em{font-style:normal;color:#f1b744}
+.rsi-vision-head>p{font-family:var(--cvng-serif);font-size:1.2rem;line-height:1.58;color:#dbe7ef;margin:0;border-left:4px solid var(--cvng-gold);padding-left:28px}
+.rsi-method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rsi-method-grid article{border:1px solid rgba(255,255,255,.28);padding:30px;min-height:205px;background:rgba(0,0,0,.08)}
+.rsi-method-grid span{display:block;color:#f1b744;font-weight:900;letter-spacing:.16em;font-size:.7rem;margin-bottom:30px}
+.rsi-method-grid h3{color:#f1b744;text-transform:uppercase;letter-spacing:.08em;font-size:1rem;margin:0 0 12px}
+.rsi-method-grid p{font-family:var(--cvng-serif);font-size:1.12rem;color:#fff;margin:0;line-height:1.5}
+
+.rsi-demonstrators{padding:96px 0 104px;background:#fff}
+.rsi-demo-head{display:grid;grid-template-columns:1.35fr .65fr;gap:64px;align-items:end;margin:10px 0 44px}
+.rsi-demo-head h2{font-family:var(--cvng-serif);font-size:clamp(2.8rem,4.4vw,4.4rem);line-height:1;color:var(--cvng-navy);margin:0}
+.rsi-demo-head p{font-family:var(--cvng-serif);font-size:1.15rem;line-height:1.55;color:#526d86;margin:0;border-left:4px solid var(--cvng-gold);padding-left:26px}
+.rsi-demo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rsi-demo-card{background:#f3f7fa;border-top:5px solid var(--cvng-gold);padding:30px;min-height:300px;display:flex;flex-direction:column}
+.rsi-demo-type{font-size:.67rem;font-weight:900;letter-spacing:.13em;color:#9b6a14}
+.rsi-demo-card h3{font-family:var(--cvng-serif);font-size:1.75rem;color:var(--cvng-navy);margin:28px 0 16px}
+.rsi-demo-card p{color:#4f6a83;line-height:1.55;margin:0 0 24px}
+.rsi-demo-card small{margin-top:auto;padding-top:20px;border-top:1px solid #d5e1e9;color:var(--cvng-navy);font-weight:900;letter-spacing:.08em}
+
+@media(max-width:820px){
+  .rsi-doctrine-grid,.rsi-method-grid,.rsi-demo-grid,.rsi-vision-head,.rsi-demo-head{grid-template-columns:1fr}
+  .rsi-doctrine-grid article{padding:24px 0;border-right:0;border-bottom:1px solid #d8e1e8}
+  .rsi-doctrine-grid article:last-child{border-bottom:0}
+  .rsi-vision-head,.rsi-demo-head{gap:28px}
+  .rsi-vision-section,.rsi-demonstrators{padding:68px 0}
+}
