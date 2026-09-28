@@ -1,0 +1,123 @@
+/* Regards SI — Hero V5 structuré : image de fond seule + contenu HTML/CSS */
+.rsi-hero-v5{
+  position:relative;
+  isolation:isolate;
+  min-height:620px;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  color:#fff;
+  background:#062f51 url("https://regards-si.fr/wp-content/uploads/2026/09/Regards-SI-—-Hero-V5-background.webp") center center/cover no-repeat;
+}
+.rsi-hero-v5::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(90deg,rgba(3,36,61,.96) 0%,rgba(3,36,61,.86) 24%,rgba(3,36,61,.55) 42%,rgba(3,36,61,.10) 62%,rgba(3,36,61,0) 78%);
+}
+.rsi-hero-v5-inner{
+  width:min(1180px,calc(100% - 48px));
+  margin:0 auto;
+  padding:74px 0 66px;
+}
+.rsi-hero-v5-copy{width:min(650px,52%)}
+.rsi-hero-v5-kicker{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin:0 0 28px;
+  color:#e8b62d;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.76rem;
+  font-weight:900;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+}
+.rsi-hero-v5-kicker::after{
+  content:"";
+  width:150px;
+  height:2px;
+  background:rgba(232,182,45,.72);
+}
+.rsi-hero-v5-title{
+  margin:0;
+  max-width:650px;
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:clamp(3.8rem,5.4vw,5.55rem);
+  line-height:.98;
+  letter-spacing:-.035em;
+  color:#fff;
+  text-wrap:balance;
+}
+.rsi-hero-v5-title span{
+  display:block;
+  color:#f2b72d;
+}
+.rsi-hero-v5-intro{
+  max-width:600px;
+  margin:26px 0 0;
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:1.08rem;
+  line-height:1.5;
+  color:rgba(255,255,255,.94);
+}
+.rsi-hero-v5-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:22px;
+  margin-top:26px;
+  padding:15px 22px;
+  background:#f2b72d;
+  color:#073557;
+  text-decoration:none;
+  font-size:.75rem;
+  font-weight:900;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.rsi-hero-v5-cta::after{
+  content:"→";
+  font-size:1.05rem;
+}
+.rsi-hero-v5-cta:hover,.rsi-hero-v5-cta:focus{
+  background:#fff;
+  color:#073557;
+}
+.rsi-hero-v5-cta:focus-visible{
+  outline:3px solid #fff;
+  outline-offset:4px;
+}
+@media(max-width:1100px){
+  .rsi-hero-v5{min-height:570px;background-position:58% center}
+  .rsi-hero-v5-inner{padding:58px 0}
+  .rsi-hero-v5-copy{width:56%}
+  .rsi-hero-v5-title{font-size:clamp(3.35rem,5.6vw,4.7rem)}
+}
+@media(max-width:820px){
+  .rsi-hero-v5{
+    min-height:680px;
+    align-items:flex-end;
+    background-position:68% center;
+  }
+  .rsi-hero-v5::before{
+    background:linear-gradient(180deg,rgba(3,36,61,.12) 0%,rgba(3,36,61,.30) 38%,rgba(3,36,61,.96) 70%,rgba(3,36,61,1) 100%);
+  }
+  .rsi-hero-v5-inner{
+    width:min(100% - 30px,1180px);
+    padding:300px 0 44px;
+  }
+  .rsi-hero-v5-copy{width:100%;max-width:620px}
+  .rsi-hero-v5-kicker{font-size:.68rem;gap:12px;margin-bottom:20px}
+  .rsi-hero-v5-kicker::after{width:70px}
+  .rsi-hero-v5-title{font-size:clamp(2.65rem,10vw,4rem);line-height:1}
+  .rsi-hero-v5-intro{font-size:1rem;max-width:560px}
+}
+@media(max-width:520px){
+  .rsi-hero-v5{min-height:640px;background-position:70% top}
+  .rsi-hero-v5-inner{padding:270px 0 36px}
+  .rsi-hero-v5-kicker{letter-spacing:.13em}
+  .rsi-hero-v5-title{font-size:2.65rem}
+  .rsi-hero-v5-intro{font-size:.96rem}
+  .rsi-hero-v5-cta{width:100%;justify-content:space-between}
+}
