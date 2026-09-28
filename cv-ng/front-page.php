@@ -1,13 +1,14 @@
-<?php wp_enqueue_style( 'regards-si-proof', get_theme_file_uri( 'proof.css' ), array(), filemtime( get_stylesheet_directory() . '/proof.css' ) ); wp_enqueue_style( 'regards-si-hero', get_theme_file_uri( 'hero-v4.css' ), array( 'regards-si-hero-v3' ), filemtime( get_stylesheet_directory() . '/hero-v4.css' ) ); wp_enqueue_style( 'regards-si-personal', get_theme_file_uri( 'personal-v1.css' ), array(), filemtime( get_stylesheet_directory() . '/personal-v1.css' ) ); get_header(); ?>
+<?php wp_enqueue_style( 'regards-si-proof', get_theme_file_uri( 'proof.css' ), array(), filemtime( get_stylesheet_directory() . '/proof.css' ) ); wp_enqueue_style( 'regards-si-hero', get_theme_file_uri( 'hero-v5.css' ), array(), filemtime( get_stylesheet_directory() . '/hero-v5.css' ) ); wp_enqueue_style( 'regards-si-personal', get_theme_file_uri( 'personal-v1.css' ), array(), filemtime( get_stylesheet_directory() . '/personal-v1.css' ) ); get_header(); ?>
 <main>
-<section class="rsi-hero-final" id="accueil" aria-label="Regards SI — Rudy Desnos, diriger le SI autrement">
-  <div class="rsi-hero-final-a11y">
-    <p>Rudy Desnos · Diriger le SI autrement</p>
-    <h1>La technique n’est jamais le sujet. Ce que l’entreprise en fait, si.</h1>
-    <p>Regards SI est l’expression professionnelle de ma vision : comprendre l’entreprise, relier ses enjeux et construire des solutions utiles, réalistes et durables.</p>
-    <p>Business first · Risk based · Technology as an enabler</p>
+<section class="rsi-hero-v5" id="accueil" aria-labelledby="rsi-hero-title">
+  <div class="rsi-hero-v5-inner">
+    <div class="rsi-hero-v5-copy">
+      <p class="rsi-hero-v5-kicker">Rudy Desnos · Regarder le SI autrement</p>
+      <h1 class="rsi-hero-v5-title" id="rsi-hero-title">La technique n’est jamais le sujet.<span>Ce que l’entreprise en fait, si.</span></h1>
+      <p class="rsi-hero-v5-intro">Regards SI est l’expression professionnelle de ma vision : comprendre l’entreprise, relier ses enjeux et construire des solutions utiles, réalistes et durables.</p>
+      <a class="rsi-hero-v5-cta" href="#qui-je-suis">Découvrir ma vision</a>
+    </div>
   </div>
-  <a class="rsi-hero-final-cta" href="#qui-je-suis" aria-label="Découvrir ma vision"></a>
 </section>
 <section class="rsi-topics"><div class="cvng-wrap rsi-topics-grid"><div><span>01</span><strong>Systèmes d’information</strong><small>Gouvernance · ERP · transformation</small></div><div><span>02</span><strong>Finance & DAF</strong><small>Processus · pilotage · performance</small></div><div><span>03</span><strong>Data & IA</strong><small>Usages · décision · valeur</small></div></div></section>
 
