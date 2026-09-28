@@ -366,7 +366,19 @@ Ce qu’elle permet d’explorer.
 
 La transformation de la productivité intellectuelle.
 
-Mais également ce qu’elle ne possède pas :
+Mais surtout la question opérationnelle : comment l’intégrer dans un processus réel sans perdre la maîtrise du système ?
+
+Une méthode commune :
+
+**besoin réel → règles → IA → supervision humaine → traçabilité → mesure → amélioration**
+
+Cette logique peut s’appliquer à des usages très différents : assistance éditoriale, analyse de données, veille, multidiffusion, recommandation, agents spécialisés ou supervision de rang 1 d’un forum.
+
+Dans ce dernier cas, l’IA peut détecter, qualifier et traiter les situations simples, puis escalader les cas ambigus, sensibles ou à fort impact vers une décision humaine.
+
+Les démonstrateurs associés à Regards SI permettent de confronter cette méthode au réel et de mesurer ce qu’elle apporte effectivement.
+
+Mais l’IA ne possède pas :
 
 l’expérience ;
 
@@ -381,7 +393,7 @@ l’intention.
 Le livre lui-même comme démonstration.
 
 ### Conviction
-**L’IA ne remplace pas l’expérience. Elle peut en augmenter considérablement la portée.**
+**L’IA n’est pas un sujet à part. C’est une capacité supplémentaire du système d’information : elle doit répondre à un besoin réel, être encadrée, supervisée, tracée et mesurée.**
 
 ---
 
