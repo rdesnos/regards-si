@@ -6,6 +6,12 @@
 
 Il s'appuie sur **26 années d'expérience des systèmes d'information**, dont une large part en contexte international.
 
+Cette expérience possède une dimension particulière : elle s'est construite au sein d'une même entreprise pendant sa transformation profonde, **d'une PME nationale à un grand groupe international**.
+
+Cela signifie avoir observé, accompagné et vécu de l'intérieur les changements d'échelle successifs : croissance des effectifs, internationalisation, multiplication des métiers et des contraintes, évolution de la gouvernance, structuration des fonctions support, complexification des processus, transformation des outils et du système d'information.
+
+Le témoignage ne porte donc pas seulement sur des projets SI isolés, mais sur **la manière dont un système d'information doit évoluer lorsque l'entreprise elle-même change de nature, de taille et d'ambition**.
+
 L'objectif n'est pas de dire aux autres ce qu'ils doivent penser ou faire, mais de transmettre :
 - ce que j'ai vu ;
 - ce que j'ai constaté ;
@@ -23,6 +29,8 @@ L'objectif n'est pas de dire aux autres ce qu'ils doivent penser ou faire, mais 
 Le lecteur n'a pas besoin d'être d'accord avec tout.
 
 Le livre doit lui permettre de confronter cette expérience à la sienne et, si possible, de regarder autrement certaines situations.
+
+Il doit également restituer ce que l'on apprend lorsque l'on voit une organisation grandir pendant plus de deux décennies : ce qui fonctionne à l'échelle d'une PME, ce qui ne fonctionne plus quand l'entreprise change d'échelle, ce qu'il faut structurer, ce qu'il faut préserver, et ce que l'internationalisation oblige à repenser.
 
 ## Conviction centrale
 
