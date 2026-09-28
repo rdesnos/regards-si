@@ -84,6 +84,35 @@ Mais l'expérience, le jugement, l'intention, les arbitrages et la responsabilit
 
 Le livre lui-même doit en être une démonstration.
 
+
+### IA : une méthode, pas une collection d'usages
+
+L'intelligence artificielle ne doit pas être présentée comme un sujet séparé du système d'information, ni comme une succession de démonstrations spectaculaires.
+
+Elle doit être intégrée avec la même exigence que toute autre capacité du SI : à partir d'un besoin réel, dans un processus réel, avec des règles explicites, des limites connues, une supervision adaptée, une traçabilité et une mesure de l'efficacité.
+
+Le fil directeur est :
+
+**besoin réel → règles → IA → supervision humaine → traçabilité → mesure → amélioration**
+
+Cette méthode doit rester cohérente quel que soit le cas d'usage :
+- assistance éditoriale ;
+- analyse et interprétation de données ;
+- veille ;
+- multidiffusion de contenus ;
+- recommandation ;
+- agents spécialisés par rôle ;
+- supervision de rang 1 d'un forum ;
+- détection, qualification et escalade des situations nécessitant une décision humaine.
+
+Les démonstrateurs associés à **Regards SI** servent à éprouver cette méthode dans des contextes différents.
+
+L'objectif n'est pas de prouver que l'on peut « mettre de l'IA partout ».
+
+Il est de montrer que l'on sait **où elle crée de la valeur, jusqu'où lui déléguer, comment la superviser et comment mesurer ce qu'elle apporte**.
+
+**L'IA n'est pas un sujet à part. C'est une capacité supplémentaire du système d'information, qui doit répondre à un besoin réel, s'inscrire dans des règles, être supervisée, tracée et mesurée.**
+
 ## Langue et édition bilingue
 
 La version maître est écrite en français.
