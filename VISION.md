@@ -34,13 +34,31 @@ Un problème complexe n’a pas toujours besoin de plus de données, de plus de 
 
 C’est ce principe qui relie aujourd’hui l’ensemble de ma démarche.
 
+## Le même regard, sur des réalités très différentes
+
+L’unité de mon écosystème ne vient pas des sujets traités. Elle vient du regard que je porte sur eux.
+
+**Le même regard — le mien — façonné par mon parcours, mon expérience, mes réflexes, mes convictions et ce que je suis, appliqué à des réalités très différentes.**
+
+Une ESN. Un système d’information. Une direction financière. Un artiste. Une audience. Un média. Une donnée. Une œuvre. Une organisation.
+
+Les objets changent. Le regard reste le même.
+
+Je cherche à comprendre le réel avant de lui imposer un modèle. À relier ce qui est trop souvent traité séparément. À changer de représentation lorsque cela permet de mieux comprendre. Puis à choisir les outils adaptés pour créer de la valeur.
+
+**Comprendre le réel. L’intégrer. Regarder autrement. Créer de la valeur.**
+
+Cette différence est au cœur de ma proposition professionnelle. Elle ne consiste pas à revendiquer une expertise isolée de plus, mais à combiner des dimensions différentes et à les faire travailler ensemble.
+
+**La différence devient de la valeur lorsqu’elle permet de voir autrement, de relier ce qui était séparé et d’agir plus justement sur le réel.**
+
 Regards SI en est le cœur : le lieu où je formalise ma vision du métier, de l’entreprise et de la transformation.
 
 GUSTAVE en est une démonstration concrète : concevoir un système métier moderne à partir des usages, des processus et des responsabilités de ceux qui vont réellement l’utiliser.
 
 CFO Agence Média en est une autre : construire et exploiter un écosystème réel associant média, data, intelligence artificielle, automatisation, processus et modèle économique dans un domaine différent de mon parcours historique.
 
-Antoine Delmas apporte encore un autre regard : utiliser la fiction pour observer les mêmes décisions, les mêmes organisations et leurs conséquences humaines.
+Antoine Delmas applique ce même regard par une autre représentation : la fiction permet d’observer les mêmes décisions, les mêmes organisations et leurs conséquences humaines.
 
 Ces projets ne sont donc pas périphériques à mon projet professionnel.
 
