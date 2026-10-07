@@ -6,8 +6,8 @@
 .rsi-hero-v5-portrait-wrap{position:relative;min-height:510px;display:flex;align-items:flex-end;justify-content:center;overflow:visible}
 .rsi-hero-v5-portrait{position:relative;z-index:1;width:100%;max-width:590px;height:auto;max-height:585px;object-fit:contain;object-position:center bottom;display:block!important;opacity:1!important;visibility:visible!important;filter:drop-shadow(0 24px 38px rgba(0,0,0,.18));transform:translateY(8px) scale(1.10);transform-origin:center bottom}
 .rsi-hero-v5-copy{width:100%;max-width:690px;justify-self:end}
-.rsi-hero-v5-kicker{display:flex;align-items:center;gap:18px;margin:0 0 28px;color:#e8b62d;font-family:Arial,Helvetica,sans-serif;font-size:.76rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase}
-.rsi-hero-v5-kicker::after{content:"";width:150px;height:2px;background:rgba(232,182,45,.72)}
+.rsi-hero-v5-kicker{display:flex;align-items:center;gap:18px;width:max-content;max-width:none;margin:0 0 28px;color:#e8b62d;font-family:Arial,Helvetica,sans-serif;font-size:.92rem;font-weight:900;letter-spacing:.17em;text-transform:uppercase;white-space:nowrap}
+.rsi-hero-v5-kicker::after{content:"";flex:0 0 120px;width:120px;height:2px;background:rgba(232,182,45,.72)}
 .rsi-hero-v5-title{margin:0;max-width:690px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(3.3rem,4.6vw,5rem);line-height:.98;letter-spacing:-.035em;color:#fff;text-wrap:balance}
 .rsi-hero-v5-title span{display:block;color:#f2b72d}
 .rsi-hero-v5-intro{max-width:610px;margin:26px 0 0;font-family:Georgia,'Times New Roman',serif;font-size:1.08rem;line-height:1.5;color:rgba(255,255,255,.94)}
@@ -17,7 +17,7 @@
 .rsi-hero-v5-cta:focus-visible{outline:3px solid #fff;outline-offset:4px}
 @media(min-width:821px){
   .rsi-hero-v5-inner{min-height:620px;padding:0;display:block}
-  .rsi-hero-v5-portrait-wrap{position:absolute;left:-64px;top:0;bottom:0;width:54%;min-height:0;display:flex;align-items:flex-end;justify-content:flex-start;overflow:visible;z-index:1;pointer-events:none}
+  .rsi-hero-v5-portrait-wrap{position:absolute;left:-72px;top:0;bottom:0;width:54%;min-height:0;display:flex;align-items:flex-end;justify-content:flex-start;overflow:visible;z-index:1;pointer-events:none}
   .rsi-hero-v5-portrait{width:auto;height:92%;max-width:none;max-height:none;object-fit:contain;object-position:left bottom;transform:none;filter:drop-shadow(0 24px 38px rgba(0,0,0,.18))}
   .rsi-hero-v5-copy{position:relative;z-index:2;width:58%;max-width:690px;margin-left:auto;padding:72px 0 64px}
 }
