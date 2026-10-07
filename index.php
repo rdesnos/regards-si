@@ -71,6 +71,63 @@
     </div>
   </section>
 
+  <section class="rsi-references" id="references">
+    <div class="rsi-wrap">
+      <div class="rsi-eyebrow rsi-eyebrow-dark">Repères & influences</div>
+      <div class="rsi-references-head">
+        <h2>Une démarche singulière.<br>Pas une démarche isolée.</h2>
+        <p>Je construis des systèmes réels, je les mets en production et j'observe ce que l'IA change concrètement dans la manière de concevoir, piloter et travailler. D'autres explorent des territoires voisins. Ces références permettent de situer la démarche — et d'en montrer les différences.</p>
+      </div>
+
+      <div class="rsi-reference-grid">
+        <a class="rsi-reference-card" href="https://levels.io/projects" target="_blank" rel="noopener noreferrer">
+          <div class="rsi-reference-top"><span class="rsi-reference-index">01</span><span class="rsi-reference-arrow">↗</span></div>
+          <h3>Pieter Levels</h3>
+          <p class="rsi-reference-role">Construire, publier, apprendre</p>
+          <p>Un portfolio vivant de produits réellement mis en ligne, avec une logique de construction rapide et d'apprentissage par l'usage.</p>
+          <div class="rsi-reference-match"><strong>Point commun</strong><span>Le réel comme terrain d'expérimentation.</span></div>
+          <div class="rsi-reference-diff"><strong>Différence</strong><span>Ici, l'entrée est d'abord SI, métiers, données et gouvernance.</span></div>
+        </a>
+
+        <a class="rsi-reference-card" href="https://www.oneusefulthing.org/" target="_blank" rel="noopener noreferrer">
+          <div class="rsi-reference-top"><span class="rsi-reference-index">02</span><span class="rsi-reference-arrow">↗</span></div>
+          <h3>Ethan Mollick</h3>
+          <p class="rsi-reference-role">Co-intelligence humain–IA</p>
+          <p>Une réflexion de référence sur la manière dont l'intelligence artificielle transforme le travail, les organisations et les pratiques professionnelles.</p>
+          <div class="rsi-reference-match"><strong>Point commun</strong><span>L'IA comme collaborateur et non comme simple outil.</span></div>
+          <div class="rsi-reference-diff"><strong>Différence</strong><span>Regards SI confronte cette idée à des systèmes opérationnels exploités au quotidien.</span></div>
+        </a>
+
+        <a class="rsi-reference-card" href="https://simonwillison.net/" target="_blank" rel="noopener noreferrer">
+          <div class="rsi-reference-top"><span class="rsi-reference-index">03</span><span class="rsi-reference-arrow">↗</span></div>
+          <h3>Simon Willison</h3>
+          <p class="rsi-reference-role">Expérimenter et documenter</p>
+          <p>Une pratique continue des LLM, de la donnée et des outils, documentée publiquement au fil des expérimentations et des mises en œuvre.</p>
+          <div class="rsi-reference-match"><strong>Point commun</strong><span>Construire pour comprendre, puis documenter ce qui a été appris.</span></div>
+          <div class="rsi-reference-diff"><strong>Différence</strong><span>L'angle Regards SI est moins développeur et davantage architecture métier de bout en bout.</span></div>
+        </a>
+
+        <a class="rsi-reference-card" href="https://www.tiltely.com/" target="_blank" rel="noopener noreferrer">
+          <div class="rsi-reference-top"><span class="rsi-reference-index">04</span><span class="rsi-reference-arrow">↗</span></div>
+          <h3>Tiltely</h3>
+          <p class="rsi-reference-role">AI-native ecosystem</p>
+          <p>Un studio qui conçoit plusieurs produits IA autour d'un socle commun et revendique explicitement une logique d'écosystème interconnecté.</p>
+          <div class="rsi-reference-match"><strong>Point commun</strong><span>Un socle partagé, plusieurs usages, une logique d'écosystème.</span></div>
+          <div class="rsi-reference-diff"><strong>Différence</strong><span>Regards SI relie cette logique aux processus d'entreprise, à la finance et au pilotage.</span></div>
+        </a>
+      </div>
+
+      <div class="rsi-signature">
+        <span class="rsi-signature-label">La singularité Regards SI</span>
+        <p>Mon unité de réflexion n'est ni le prompt, ni l'application, ni le site. <strong>C'est le système :</strong> acteurs, processus, données, contenus, décisions, automatisation et IA — reliés dans un ensemble cohérent.</p>
+        <div class="rsi-signature-flow" aria-label="Méthode Regards SI">
+          <span>Acteurs</span><i>→</i><span>Processus</span><i>→</i><span>Données</span><i>→</i><span>Décisions</span><i>→</i><span>Automatisation</span><i>→</i><span>IA</span><i>→</i><span>Pilotage</span>
+        </div>
+        <strong class="rsi-signature-motto">Piloté par l'IA, supervisé par l'humain.</strong>
+      </div>
+    </div>
+  </section>
+
   <section class="rsi-closing">
     <div class="rsi-wrap">
       <p class="rsi-closing-quote">La technique n’est jamais le sujet.<br><strong>Ce que l’entreprise en fait, si.</strong></p>
