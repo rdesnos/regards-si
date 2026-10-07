@@ -8,7 +8,7 @@
     </div>
     <div class="rsi-hero-v5-copy">
       <p class="rsi-hero-v5-kicker">Rudy Desnos · Regarder le SI autrement</p>
-      <h1 class="rsi-hero-v5-title" id="rsi-hero-title">La technique n’est jamais le sujet.<span>Ce que l’entreprise en fait, si.</span></h1>
+      <h1 class="rsi-hero-v5-title" id="rsi-hero-title">La technologie n’est jamais le sujet.<span>Ce que l’entreprise en fait, oui !</span></h1>
       <p class="rsi-hero-v5-intro">Regards SI est l’expression professionnelle de ma vision : comprendre l’entreprise, relier ses enjeux et construire des solutions utiles, réalistes et durables.</p>
       <a class="rsi-hero-v5-cta" href="#qui-je-suis">Découvrir ma vision</a>
     </div>
