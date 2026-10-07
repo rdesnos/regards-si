@@ -1,7 +1,11 @@
-<?php wp_enqueue_style( 'regards-si-proof', get_theme_file_uri( 'proof.css' ), array(), filemtime( get_stylesheet_directory() . '/proof.css' ) ); wp_enqueue_style( 'regards-si-hero', get_theme_file_uri( 'hero-v5.css' ), array(), filemtime( get_stylesheet_directory() . '/hero-v5.css' ) ); wp_enqueue_style( 'regards-si-personal', get_theme_file_uri( 'personal-v1.css' ), array(), filemtime( get_stylesheet_directory() . '/personal-v1.css' ) ); get_header(); ?>
+<?php wp_enqueue_style( 'regards-si-proof', get_theme_file_uri( 'proof.css' ), array(), filemtime( get_stylesheet_directory() . '/proof.css' ) ); wp_enqueue_style( 'regards-si-hero-v6', get_theme_file_uri( 'hero-v6.css' ), array( 'cv-ng-style' ), filemtime( get_stylesheet_directory() . '/hero-v6.css' ) ); wp_enqueue_style( 'regards-si-personal', get_theme_file_uri( 'personal-v1.css' ), array(), filemtime( get_stylesheet_directory() . '/personal-v1.css' ) ); get_header(); ?>
 <main>
 <section class="rsi-hero-v5" id="accueil" aria-labelledby="rsi-hero-title">
+  <img class="rsi-hero-v5-bg" src="https://regards-si.fr/wp-content/uploads/2026/09/regards-si-hero-v5-background.webp" alt="" aria-hidden="true">
   <div class="rsi-hero-v5-inner">
+    <div class="rsi-hero-v5-portrait-wrap">
+      <img class="rsi-hero-v5-portrait" src="https://regards-si.fr/wp-content/uploads/2026/09/Rudy-Desnos-portrait-hero-Regards-SI.webp" alt="Portrait professionnel de Rudy Desnos">
+    </div>
     <div class="rsi-hero-v5-copy">
       <p class="rsi-hero-v5-kicker">Rudy Desnos · Regarder le SI autrement</p>
       <h1 class="rsi-hero-v5-title" id="rsi-hero-title">La technique n’est jamais le sujet.<span>Ce que l’entreprise en fait, si.</span></h1>
