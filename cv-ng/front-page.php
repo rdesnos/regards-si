@@ -4,7 +4,7 @@
   <img class="rsi-hero-v5-bg" src="https://regards-si.fr/wp-content/uploads/2026/09/regards-si-hero-v5-background.webp" alt="" aria-hidden="true">
   <div class="rsi-hero-v5-inner">
     <div class="rsi-hero-v5-portrait-wrap">
-      <img class="rsi-hero-v5-portrait" src="https://regards-si.fr/wp-content/uploads/2026/09/Rudy-Desnos-portrait-hero-Regards-SI.webp" alt="Portrait professionnel de Rudy Desnos">
+      <img class="rsi-hero-v5-portrait" src="https://regards-si.fr/wp-content/uploads/2026/10/Rudy-Desnos-—-portrait-officiel-ecosysteme.png" alt="Portrait professionnel de Rudy Desnos">
     </div>
     <div class="rsi-hero-v5-copy">
       <p class="rsi-hero-v5-kicker">Rudy Desnos · Regarder le SI autrement</p>
