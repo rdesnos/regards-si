@@ -17,7 +17,6 @@ add_action( 'after_setup_theme', 'cv_ng_setup' );
 function cv_ng_scripts() {
 	wp_enqueue_style( 'regards-si-logo-2026', get_theme_file_uri( 'logo-2026.css' ), array( 'cv-ng-style' ), file_exists( get_stylesheet_directory() . '/logo-2026.css' ) ? filemtime( get_stylesheet_directory() . '/logo-2026.css' ) : wp_get_theme()->get( 'Version' ) );
 	wp_enqueue_style( 'cv-ng-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
-	wp_enqueue_style( 'regards-si-hero-v3', get_theme_file_uri( 'hero-v3.css' ), array( 'cv-ng-style' ), file_exists( get_stylesheet_directory() . '/hero-v3.css' ) ? filemtime( get_stylesheet_directory() . '/hero-v3.css' ) : wp_get_theme()->get( 'Version' ) );
 	wp_enqueue_script(
 		'alpinejs',
 		get_theme_file_uri( 'assets/js/alpine.min.js' ),
