@@ -17,7 +17,7 @@
 .rsi-hero-v5-cta:focus-visible{outline:3px solid #fff;outline-offset:4px}
 @media(min-width:821px){
   .rsi-hero-v5-inner{min-height:620px;padding:0;display:block}
-  .rsi-hero-v5-portrait-wrap{position:absolute;left:-24px;top:0;bottom:0;width:54%;min-height:0;display:flex;align-items:flex-end;justify-content:flex-start;overflow:visible;z-index:1;pointer-events:none}
+  .rsi-hero-v5-portrait-wrap{position:absolute;left:-32px;top:0;bottom:0;width:54%;min-height:0;display:flex;align-items:flex-end;justify-content:flex-start;overflow:visible;z-index:1;pointer-events:none}
   .rsi-hero-v5-portrait{width:auto;height:92%;max-width:none;max-height:none;object-fit:contain;object-position:left bottom;transform:none;filter:drop-shadow(0 24px 38px rgba(0,0,0,.18))}
   .rsi-hero-v5-copy{position:relative;z-index:2;width:58%;max-width:690px;margin-left:auto;padding:72px 0 64px}
 }
