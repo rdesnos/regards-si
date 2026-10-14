@@ -34,6 +34,14 @@ Un problème complexe n’a pas toujours besoin de plus de données, de plus de 
 
 C’est ce principe qui relie aujourd’hui l’ensemble de ma démarche.
 
+## Une même énergie, des formes multiples
+
+Le même regard ne suffit pas : pour être sincères, **tous les projets de l'écosystème doivent aussi être innervés par une même énergie intérieure** — curiosité, sensibilité, rigueur, liberté de pensée et volonté de transformer les idées en réalisations.
+
+Cette énergie ne doit jamais devenir un style uniforme ni un slogan. Elle se manifeste différemment dans chaque projet, en respectant son sujet, son public, sa responsabilité et son indépendance. Les expériences intimes nourrissent éventuellement le regard ; elles n'ont pas à devenir des contenus publics.
+
+La [doctrine transversale de l'énergie intérieure](docs/DOCTRINE_TRANSVERSALE_ENERGIE_INTERIEURE.md) en fixe les invariants et les critères de sincérité.
+
 ## Le même regard, sur des réalités très différentes
 
 L’unité de mon écosystème ne vient pas des sujets traités. Elle vient du regard que je porte sur eux.
